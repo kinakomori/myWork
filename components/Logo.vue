@@ -1,78 +1,32 @@
 <template>
-  <div class="VueToNuxtLogo">
-    <div class="Triangle Triangle--two"></div>
-    <div class="Triangle Triangle--one"></div>
-    <div class="Triangle Triangle--three"></div>
-    <div class="Triangle Triangle--four"></div>
-  </div>
+  <h1 class="wrapper">
+    <svg xmlns="http://www.w3.org/2000/svg" width="439.279" height="244.653" viewBox="0 0 439.279 244.653">
+      <g transform="translate(-433.063 -197.347)">
+        <path
+          d="M595.977,399.492,478.049,228.713V385.721q0,18.462,2.062,27.243a30.172,30.172,0,0,0,19,22.046q6.359,2.331,16.58,2.868V442H433.063v-4.122q10.215-.538,16.579-2.868a30.109,30.109,0,0,0,19-22.136Q470.7,404,470.7,385.721v-132.1q0-8.243-.538-15.593-.9-13.262-4.123-19.358a28.756,28.756,0,0,0-12.278-12.456q-7.8-4.033-20.7-4.75v-4.122H510.85L624.455,371.481Z"
+        />
+        <path
+          d="M863.429,437.372a42.177,42.177,0,0,1-8.228-4.4,64.936,64.936,0,0,1-14.97-13.941l-6.513-8.342-91.772-116.8V255l-31.227,31.006V406.119q0,11.769-1.257,17.369a18.489,18.489,0,0,1-4.913,9.256,19.4,19.4,0,0,1-7.142,4.742,35.936,35.936,0,0,1-10.685,1.886V442h79.221v-2.628a35.929,35.929,0,0,1-10.684-1.886,19.135,19.135,0,0,1-12-14.055q-1.314-5.656-1.314-17.312v-72.49l47.092,59.234q4.341,5.256,10.627,13.713t8.57,11.884q4.686,7.088,4.685,11.656a6.96,6.96,0,0,1-3.771,6.4q-3.771,2.17-12.341,2.857V442h75.534v-2.628A40.942,40.942,0,0,1,863.429,437.372Z"
+        />
+      </g>
+    </svg>
+  </h1>
 </template>
 
-<style>
-.VueToNuxtLogo
-{
-  display: inline-block;
-  animation: turn 2s linear forwards 1s;
-  transform: rotateX(180deg);
-  position: relative;
-  overflow: hidden;
-  height: 180px;
-  width: 245px;
+<style scoped>
+.wrapper {
+  fill: #002F49;
+  /* animation: FadeIn 0.8s ease-in; */
 }
-.Triangle
-{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 0;
-}
-.Triangle--one
-{
-  border-left: 105px solid transparent;
-  border-right: 105px solid transparent;
-  border-bottom: 180px solid #41B883;
-}
-.Triangle--two
-{
-  top: 30px;
-  left: 35px;
-  animation: goright 0.5s linear forwards 3.5s;
-  border-left: 87.5px solid transparent;
-  border-right: 87.5px solid transparent;
-  border-bottom: 150px solid #3B8070;
-}
-.Triangle--three
-{
-  top: 60px;
-  left: 35px;
-  animation: goright 0.5s linear forwards 3.5s;
-  border-left: 70px solid transparent;
-  border-right: 70px solid transparent;
-  border-bottom: 120px solid #35495E;
-}
-.Triangle--four
-{
-  top: 120px;
-  left: 70px;
-  animation: godown 0.5s linear forwards 3s;
-  border-left: 35px solid transparent;
-  border-right: 35px solid transparent;
-  border-bottom: 60px solid #fff;
-}
-
-@keyframes turn {
-  100% {
-    transform: rotateX(0deg);
-  }
-}
-@keyframes godown {
-  100% {
-    top: 180px;
-  }
-}
-@keyframes goright {
-  100% {
-    left: 70px;
-  }
+@keyframes FadeIn {
+	0% {
+    opacity: 0;
+	}
+	60% {
+		opacity: 0;
+	}
+	100% {
+    opacity: 1;
+	}
 }
 </style>

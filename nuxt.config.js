@@ -14,7 +14,9 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      // Google Font
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=EB+Garamond' }
     ]
   },
 
@@ -27,6 +29,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    'assets/main.css'
   ],
 
   /*
