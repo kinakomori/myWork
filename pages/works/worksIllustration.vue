@@ -25,12 +25,6 @@
         <li>フロントエンド実装</li>
       </ul>
       
-      <h3 class="worksTitleSecondary">結果</h3>
-      <p>大幅なインターフェースデザインの見直しを行い、すべての宿泊施設情報をスクロール又は、SPAライクなトランジッションによりストレスなく閲覧できるよな変更を実施。<br>これにより重要なビジネス指標である「宿泊プランページ」の閲覧率が50%改善しました。</p>
-      <div class="worksIPhone">
-        <img src="../../assets/img/iphone8.png" width="100%"/>
-        <video src="../../assets/img/works.webm" preload="auto" autoplay controls class="worksIPhoneVideo"></video>
-      </div>
     </section>
   </section>
 </template>

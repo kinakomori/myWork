@@ -10,12 +10,12 @@
           </nuxt-link>
         </li>
         <li class="navItem">
-          <nuxt-link to="/works" class="navItemLink">
+          <nuxt-link to="/career" class="navItemLink">
             CAREER
           </nuxt-link>
         </li>
         <li class="navItem">
-          <nuxt-link to="/works" class="navItemLink">
+          <nuxt-link to="/profile" class="navItemLink">
             PROFILE
           </nuxt-link>
         </li>
@@ -159,7 +159,7 @@ export default {
   height: 100%;
   position: absolute;
   bottom: 0;
-  transition: width 0.2s ease-in;
+  transition: width 0.3s ease-in;
 }
 .navItem::after {
   left: 0;
@@ -185,6 +185,7 @@ export default {
   line-height: 1;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 .navItemLink:hover {
   transform: translateY(-2px);

@@ -2,33 +2,40 @@
   <section>
     <h2 class="worksTitle">LP</h2>
     <section class="worksWrapper">
-      <p>サイト内広告枠に掲載する宿泊施設とのタイアップ広告ページデザインや<br>新サービスのティザーページ等を記載しています。</p>
+      <p>一休.comサイト内広告枠に掲載する宿泊施設とのタイアップ広告ページデザインや<br>新サービスのティザーページ等を記載しています。</p>
       <h3 class="worksTitlePrimary">
-        タイアップページ作成
+        キャンペーンページデザイン
       </h3>
       <p><b>プラットフォーム</b>：PCWeb</p>
       <p><b>技術</b>：html/css,Jquery</p>
       <p><b>期間</b>：1ページ当たり1～2日</p>
       
       <h3 class="worksTitleSecondary">ザ・リッツカールトン東京</h3>
-      <p>リッツカールトン東京様のクラブフロア紹介ページ。<br>支配人の方との打ち合わせや、実際クラブフロアを訪れるなどし作成しました。</p>
-      <video src="../../assets/img/lp_ritz.webm" preload="auto" autoplay controls class="worksIPhoneVideo"></video>
+      <p>リッツカールトン東京様の<a target="_blank" href="https://www.ikyu.com/dg/special/fullyear/brand/ritz/rctokyo/start.aspx">クラブフロア紹介ページ。</a><br>支配人の方との打ち合わせや、実際クラブフロアを訪れるなどし作成しました。</p>
+      <video 
+        src="../../assets/img/lp_ritz.mp4"
+        preload="auto"
+        autoplay
+        controls
+        class="worksIPhoneVideo"
+        decoding ="async"
+      ></video>
       
       <h3 class="worksTitleSecondary">シェラトン・グランデ</h3>
       <p>タイアップ広告ページ</p>
       <p class="worksLPimg">
-        <img src="../../assets/img/lp_sheraton.png" width="840" />
+        <img src="../../assets/img/lp_sheraton.png" width="840" decoding ="async" />
       </p>
 
       <h3 class="worksTitleSecondary">緑草音</h3>
       <p class="worksLPimg">
-        <img src="../../assets/img/lp_ryokusone.png" width="840" />
+        <img src="../../assets/img/lp_ryokusone.png" width="840" decoding ="async" />
       </p>
       
       <h3 class="worksTitleSecondary">バケーションレンタルサービス</h3>
       <p>バケーションレンタルサービスティザーページ</p>
       <p class="worksLPimg">
-        <img src="../../assets/img/lp_vr.jpg" width="840" />
+        <img src="../../assets/img/lp_vr.jpg" width="840" decoding ="async" />
       </p>
     </section>
   </section>
